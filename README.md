@@ -11,11 +11,6 @@ It fetches and displays real-time weather data for any city, with a clean UI sty
 
 ---
 
-## 📸 Preview
-![Uploading image.png…]()
-
----
-
 ## 🛠️ Features
 
 - 🔍 Search for any city’s current weather
