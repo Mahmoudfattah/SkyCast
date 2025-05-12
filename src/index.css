@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Water+Brush&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: rgb(51, 1, 1) !important; */
+}
+
+.glassCard{
+  background:  rgba(225,225,225,0.18);
+  box-shadow:  0 8px 32px 0 rgba(31,38,135,0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(225,225,225,0.18);
+}
+
+@keyframes gradientFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.font{
+		font-family: "Merienda", cursive;
+		font-optical-sizing: auto;
+		font-weight: 600;
+		background: linear-gradient(40deg, #130101, #71ebe3, #220135);
+		background-size: 200% 200%;
+		-webkit-text-stroke: .4px #597c99;
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: gradientFlow 5s ease infinite;
+	}
