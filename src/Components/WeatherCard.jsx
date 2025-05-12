@@ -45,7 +45,7 @@ const WeatherCard = ({
 
   return (
     <div className='w-[22rem] min-w-[22rem] h-[30rem] glassCard p-4'>
-      <div className='flex w-full just-center, items-center gap-12 mt-12 mb-4'>
+      <div className='flex w-full just-center, items-center gap-12 mt-6 mb-4'>
         <img src={icon} alt="weather_icon" />
         <p className='font-bold text-5xl flex justify-center items-center' >{temperature} &deg;C</p>
       </div>
@@ -54,7 +54,7 @@ const WeatherCard = ({
       </div>
       <div className='w-full flex justify-between items-center mt-4'>
         <p className='flex-1 text-center p-2'>{new Date().toDateString()}</p>
-        <p className='flex-1 text-center p-2'>{time}</p>
+        <p className='flex-1 text-center '>{time}</p>
       </div>
       <div className='w-full flex justify-between items-center mt-4 gap-4'>
         <p className='flex-1 text-center p-2 font-bold bg-blue-600 shadow rounded-lg'>Wind Speed <p className='font-normal'>{windspeed} km/h</p></p>
@@ -65,7 +65,7 @@ const WeatherCard = ({
         <p className='text-lg'>{heatIndex ? heatIndex : 'N/A'}</p>
       </div>
       <hr className='bg-slate-600' />
-      <div className='w-full p-4 flex justify-center items-center text-2xl font-semibold '>
+      <div className='w-full p-2 flex justify-center items-center text-2xl font-semibold text-center  '>
         {conditions }
       </div>
     </div>
