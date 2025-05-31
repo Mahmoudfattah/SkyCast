@@ -48,3 +48,17 @@
 		-webkit-text-fill-color: transparent;
 		animation: gradientFlow 5s ease infinite;
 	}
+/* 
+.test{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 1rem;
+  justify-content: center;
+}
+
+@media screen and (max-width: 640px) {
+  .test {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+ */

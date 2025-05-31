@@ -41,7 +41,7 @@ const MiniCard = ({ time, temp, iconString }) => {
 
 
   return (
-    <div className='glassCard w-[10rem] h-[10rem] p-4 flex flex-col'>
+    <div className='glassCard  p-4 flex flex-col'>
       <p className='text-center'>
         {new Date(time).toLocaleTimeString('en', { weekday: 'long' }).split(" ")[0]}
       </p>
