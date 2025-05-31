@@ -2,7 +2,6 @@
 
 **SkyCast** is a sleek, modern weather application built with React and Tailwind CSS. It fetches real-time weather data and presents it in a visually appealing card layout, complete with dynamic icons and background images that reflect current conditions.
 
-![SkyCast Screenshot](./assets/images/screenshot.png)
 
 ---
 
